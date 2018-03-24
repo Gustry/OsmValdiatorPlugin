@@ -1,0 +1,32 @@
+
+[general]
+name=OSM Validator
+qgisMinimumVersion=3.0
+description=Detect some basic OSM tags error, edit features in JOSM or iD
+version=1
+author=Etienne Trimaille
+email=etienne dot trimaille at gmail dot com
+
+about=Using OSM data might be more complex. Some basic cleaning.
+
+tracker=http://bugs
+repository=http://repo
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=osm,openstreetmap,josm,id,remote,fix
+
+homepage=http://homepage
+category=OpenStreetMap
+icon=src/resources/osm-validator.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
